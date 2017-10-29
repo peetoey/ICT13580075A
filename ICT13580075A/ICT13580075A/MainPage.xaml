@@ -4,17 +4,19 @@
              xmlns:local="clr-namespace:ICT13580075A"
              x:Class="ICT13580075A.MainPage"
             BackgroundColor="Teal"
-             Padding="10,20,30,40">
+             Padding="10,10,10,10">
     <ContentPage.Content>
         <StackLayout
             Orientation="Vertical"
             BackgroundColor="Aqua">
-
+            <Image
+                Source="cat"
+                HeightRequest="100"/>
             <Label
                Text="Hello World"
                 TextColor="Black"
                 BackgroundColor="Yellow"
-                Margin="20"
+                Margin="0"
                 x:Name="firstNameLabel"/>
             <Label
                 Text="Saksit Jantaraplin"
@@ -35,7 +37,8 @@
                 x:Name="genderPicker"
                 Title="กรุณาเลือกเพศ"/>
             <Label
-                x:Name="valueLabel"/>
+                x:Name="valueLabel"
+                Text="0"/>
             <Slider
                 Maximum="100"
                 Minimum="0"
@@ -51,13 +54,12 @@
                 IsToggled="False"
                 VerticalOptions="Start"
                 HorizontalOptions="Start"/>
-            <Image
-                Source="cat"
-                HeightRequest="100"
-                BackgroundColor="Black"/>
+
             <WebView
-                Source="https://youtube.com"
-                HeightRequest="150"/>
+            Source="https://youtube.com"
+            HeightRequest="150"/>
+
+
 
         </StackLayout>
     </ContentPage.Content>

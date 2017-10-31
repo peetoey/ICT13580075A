@@ -6,6 +6,7 @@
             BackgroundColor="Teal"
              Padding="10,10,10,10">
     <ContentPage.Content>
+        <ScrollView>
         <StackLayout
             Orientation="Vertical"
             BackgroundColor="Aqua">
@@ -62,5 +63,6 @@
 
 
         </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

@@ -37,7 +37,7 @@ namespace ICT13580075A
 
         private void OkButton_Clicked(object sender, EventArgs e)
         {
-            firstNameLabel.Text = firstNameLabel.Text;
+            helloLabel.Text = firstNameEntry.Text;
         }
     }
 }

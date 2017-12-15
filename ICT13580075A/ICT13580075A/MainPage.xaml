@@ -3,8 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:ICT13580075A"
              x:Class="ICT13580075A.MainPage"
-            BackgroundColor="Teal"
-             Padding="10,10,10,10">
+             BackgroundColor="Teal"
+             Padding="10,10,10,10"
+             Title="Welcome">
     <ContentPage.Content>
         <ScrollView>
         <StackLayout
@@ -18,12 +19,12 @@
                 TextColor="Black"
                 BackgroundColor="Yellow"
                 Margin="0"
-                x:Name="firstNameLabel"/>
+                x:Name="helloLabel"/>
             <Label
                 Text="Saksit Jantaraplin"
-                TextColor="Black"
+                TextColor="White"
                 BackgroundColor="Fuchsia"
-                x:Name="lastNameLabel"/>
+                x:Name="firstNameLabel"/>
             <Entry
                 Placeholder="Input Name"
                 PlaceholderColor="Gray"
